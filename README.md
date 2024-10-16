@@ -20,20 +20,19 @@ Anaconda - Python 3.7
 
 ## PROGRAM:
 ```
-/* Developed by: Hanshika Varthini R
- Register number: 212223240046
- */
-num=0
-with open ("story.txt","r") as f1:
-    for i in f1:
-        word=i.split()
-        num += len(word)
-print("The number of words in the file is",num)
+##DEVELOPED BY: Hanshika Varthini R
+##REFERENCE NUMBER: 212223240046
+num_words =0
+file1 = open("my_file.txt", "r")
+with open('my_file.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/257e2449-e3a5-4b93-976e-2797e4f33f48)
 
-
+![Screenshot 2024-10-16 161644](https://github.com/user-attachments/assets/976b6a27-70b3-4200-ac79-8feb9de2f5d0)
 
 
 ## RESULT:
